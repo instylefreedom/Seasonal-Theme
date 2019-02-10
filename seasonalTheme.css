@@ -1,0 +1,11 @@
+body {
+    background-image:url('seasons/winter.gif');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+/* using css to put gif on the background. Uncertain if this will do the job
+or how to get the season var from js telling us which gif to put up*/
