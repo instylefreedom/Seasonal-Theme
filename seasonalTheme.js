@@ -55,6 +55,7 @@ All dates are in Eastern Time.
     let day = date.getDate();  // get day of month (1-31) of specified date according to local time according to MDN
     if (month < 3) {
         setSeasonalTheme('winter');
+        document.documentElement.style.setProperty('--season', 'seasons/winter.gif');
     }
 }
 
