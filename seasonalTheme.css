@@ -1,3 +1,10 @@
+:root {
+  /*--season : url('seasons/winter.gif');*/
+  --season : 'seasons/summer.gif'
+
+}
+
+
 body {
     background-image:url('seasons/winter.gif');
     background-size:100%;
